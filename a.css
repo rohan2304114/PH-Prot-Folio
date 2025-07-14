@@ -84,3 +84,39 @@ nav ul li a{
 
 
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+color: #757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.about{
+    border-radius: 130px;
+    padding: 130px 150px;
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+.a{
+    background-color: none;
+    text-align: center;
+}
+.resume{
+    background-color: red;
+    display: flex;
+}

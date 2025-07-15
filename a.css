@@ -1,0 +1,114 @@
+/* header section */
+/* Basse styles for  header */
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: #FFF8F3; 
+
+}
+.header-content{
+    width: 100%;
+   
+   
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.header-name{
+    font-size: 30px;
+    font-weight: bold;
+     padding: 0 110px
+
+}
+.header-top h1 span{
+    color: #FD6E0A;
+    
+}
+.header-top a{
+    text-decoration: none;
+    color: rgb(106, 0, 255);
+    font-size: larger;
+}
+/* Hire Me button style */
+.header-top button{
+      background-color:#FD6E0A;
+      padding: 12px 23px;
+      color: white;
+      font-size: 16px;
+      border: 6px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin:0 50px;
+    
+
+}
+.header-bottom{
+    /* width: 100%; */
+    display: flex;
+
+   
+    
+
+}
+.header-left{
+    padding: 0 px;
+     background-color: #FFF8F3;
+  
+    
+}
+.header-middle{
+    padding: 0 20px;
+    background-color: #FFF8F3;
+
+}
+.header-middle p{
+    font-size: 45px;
+    font-weight: 600px;
+
+}
+.header-middle h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.header-middle h3{
+    font-size: 20px;
+}
+.header-middle button{
+     background-color:#FD6E0A;
+      padding: 12px 23px;
+      color: white;
+      font-size: 16px;
+      border: 6px;
+      cursor: pointer;
+      border-radius: 5px;
+}
+.header-right {
+   
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    padding: 10px;
+
+
+}
+.header-right img{
+    width: 400px;
+    height: 500px;
+
+   
+
+}
+
+
+
+
+
+
+
+
+

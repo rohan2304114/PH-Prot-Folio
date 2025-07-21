@@ -1,57 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfoli</title>
-    <link rel="stylesheet" href="a.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ph PortFolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="a.css">
 </head>
-<body>
-<!-- header section with profile and navigation -->
+<body class="open-sans-opensans">
+  <header class="header">
+    <nav>
+      <h3 class="nav-title">ASI<span>K</span>UR</h3>
+      <ul>
+        <li><a href="">Port-folio</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href=""><button class="button-primary">Hire ME</button></a></li>
+      </ul>
+    </nav>
+    <div class="banner">
+      <div class="banner-content">
+            <h3 class="banner-greetings">Hi I am</h3>
+            <h1 class="banner-title">Asikur Rahman Rohan</h1>
+            <p class="banner-description">I am a CSE 1st year student at CUET</p>
+            <button class="banner-button">Download CV</button>
+            <button class="banner-button">Contact</button>
+            
+      </div>
+      <img class="banner-img" src="hardy.png" alt="">
+    </div>
 
-    <header>
-      <nav class="header">
-          <div class="header-content">
-            <div class="header-top">
-              <h1 class="header-name">A s i <span>K</span>  u r</h1>
-              <a href="">Prifolio</a>
-              <a href="">Blog</a>
-              <a href=""><button>Hire Me</button> </a>
-              
-              
-            </div>
-           <div class="header-bottom">
-             <div class="header-left">
-                <img src="developer.png" alt="">
-
-            </div>
-            <div class="header-middle">
-                <p>Hi I am</p>
-                <h1>Asikur</h1>
-                <h1>Rahman</h1>
-                <h1>Rohan</h1>
-                <h3>I am a 1st Year Student in CSE at CUET.</h3>
-                <button class="download">Download</button>
-                <button class="contact">Contact </button>
-            </div>
-            <div class="header-right">
-                <img src="profile.jpg" alt="">
-                
-               
-            </div>
-        </div>
-           </div>
-        
-      
-
-    </header>
- <main>
+  </header>
+  <main>
+    <section class="about">
+      <h3 class="section-title">
+        About ME
+      </h3>
+     <p class="about-description">
+      I am a student of Cuet curently persuading my bacheolor's in Computer Science and Enginnering.
+     </p>
+     <div class="about-item">
+      <p class="item-title">Name</p>
+      <p class="item-description">Asikur Rahman Rohan</p>
+     </div >
+     <div class="about-item-main">
+      <div class="about-item">
+      <p class="item-title">Email</p>
+      <p class="item-description">abc@gmial.com</p>
+     </div>
+     <div class="about-item">
+      <p class="item-title">Birth Date</p>
+      <p class="item-description">13 Octobar, 2003</p>
+     </div>
+     <div class="about-item">
+      <p class="item-title">From</p>
+      <p class="item-description">Bangladesh</p>
+     </div>
+     </div>
+    </section>
     
+    <section class="skills">
+      <h3 class="skills-title">What I do </h3>
+      <p class="skills-description">I am a newbie just learning Html, Css and Java-Script</p>
+      <div class="flex-box">
+        <div class="flex-box-container">
+          <img src="js.png" alt="Java Script">
+          <h4 class="felx-box-title">Java-Script</h4>
+          <p class="flex-box-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae libero doloribus, ex nisi eligendi similique nihil dignissimos fugiat pariatur ipsa.</p>
+        </div>
+        <div class="flex-box-container">
+          <img src="react.png" alt="React">
+          <h4 class="felx-box-title">Ract</h4>
+          <p class="flex-box-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, ex quidem. Dicta aspernatur numquam laboriosam qui! Eius architecto modi incidunt?</p>
+        </div>
+        <div class="flex-box-container">
+          <img src="mongo.png" alt="Mongo">
+          <h4 class="felx-box-title">Mongo</h4>
+          <p class="flex-box-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo nesciunt eaque doloremque sint veniam delectus magnam a aperiam. Magnam!</p>
+        </div>
+        <div class="flex-box-container">
+          <img src="nodejs.png" alt="Node Js">
+          <h4 class="felx-box-title">Node Js</h4>
+          <p class="flex-box-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas enim ex cupiditate velit voluptatibus maxime error ipsa! Iure, totam repellat.</p>
+        </div>
+      </div>
 
- </main>
- <footer>
+    </section>
+    <section class="resume">
+      <h3 class="resume-title">A summary of Resume</h3>
+      <div class="resume-container">
+        <div class="resume-column">
+          <h3 class="column-title">My eduaction</h3>
+          <div class="experience">
+            <h4 class="experince-title">Master In Computer Science</h4>
+            <h5 class="experience-sub-title">Cuet</h5>
+            <div class="experince-description">lorem 10</div>
+          </div>
+          <div class="experience">
+            <h4 class="experince-title">korem 2</h4>
+            <h5 class="experience-sub-title">Lorem ipsum dolor sit amet.</h5>
+            <div class="experince-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolorem.</div>
+          </div>
+          <div class="experience">
+            <h4 class="experince-title">Lorem, ipsum.</h4>
+            <h5 class="experience-sub-title">Lorem ipsum dolor sit amet.</h5>
+            <div class="experince-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, velit!</div>
+          </div>
+        </div>
+        <div class="resume-column">
+          <h3 class="column-title">Lorem, ipsum.</h3>
+          <div class="experience">
+            <h4 class="experince-title">Lorem ipsum dolor sit amet.</h4>
+            <h5 class="experience-sub-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit omnis ipsa porro? Saepe, sapiente eveniet.</h5>
+            <div class="experince-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, et.</div>
+          </div>
+          <div class="experience">
+            <h4 class="experince-title"></h4>
+            <h5 class="experience-sub-title"></h5>
+            <div class="experince-description"></div>
+          </div>
+          <div class="experience">
+            <h4 class="experince-title"></h4>
+            <h5 class="experience-sub-title"></h5>
+            <div class="experince-description"></div>
+          </div>
+        </div>
+      </div>
 
- </footer>
-</body>
-</html>       
+    </section>
+
+
+  </main>
+  <footer>
+    
+  </footer>
   
+</body>
+</html>
+
